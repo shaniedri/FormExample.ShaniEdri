@@ -1,0 +1,111 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+
+    <meta charset="utf-8" />
+    <title>תואר ראשון טכנלוגיות למידה</title>
+    <meta name="description" content="תואר ראשון טכנולוגיות למידה" />
+    <meta name="keywords" content="תואר ראשון טכנולוגיות למידה" />
+    <meta name="author" content="shanie" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+
+        <div id="title">
+            <h1>הפקולטה לטכנולוגיות למידה</h1>
+            <h2>מכון טכנולוגי חולון</h2>
+            <h3>אפשר להפסיק להתלבט!</h3>
+        </div>
+
+        <div id="options1">
+            <p>אפיון וחווית משתמש</p>
+        </div>
+        <div id="options2">
+            <p>תכנות</p>
+            <p>גרפיקה</p>
+        </div>
+        <div id="options3">
+            <p>הדרכה</p>
+            <p>מחקר</p>
+        </div>
+        <div id="trapezoid">
+            <h2>תואר ראשון בטכנולוגיות למידה, למי זה מתאים? </h2>
+           
+
+            <p class="who" id="a">
+            <p></p>
+              <h2> למתעניינים בעולמות של ניו-מדיה ותוכן דיגיטאלי .</h2>
+            </p>
+            <p class="who" id="b">
+            <p></p>
+            <h2> לבעלי עניין ורקע בהדרכה ו/או בעיצוב ממשק ואינטראקטיב.</h2>
+            </p>
+            <p class="who" id="c">
+              <p></p>
+            <h2>למעוניינים לשלב בין כמה עולמות ולהיות המובילים בתחום חדש ומאתגר.</h2>
+            </p>
+        </div>
+
+        <form >
+            <input type="hidden" id="myEmail" name="name" value="shoshanaedri@gmail.com">
+            <h2>למידע נוסף, מלא פרטים ויועץ הלימודים יצור איתך קשר</h2>
+
+            <label for="FirstName">
+                שם פרטי:
+                <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+            </label>
+
+            <label for="LastName">
+                שם משפחה:
+                <input type="text" id="LastName" placeholder="הכנס את שמך הפרטי" />
+            </label>
+
+            <label for="myPass">
+                טלפון:
+                <input type="password" id="myPass" />
+            </label>
+
+
+            <label for="mySelect">
+                בחר אופציה
+                <select id="mySelect">
+                    <option value="1">אופציה 1</option>
+                    <option value="2" selected>אופציה 2</option>
+                </select>
+            </label>
+
+
+            <label for="myMS">
+                הודעה כאן:
+                <textarea id="myMS"></textarea>
+            </label>
+
+
+            <label for="cb1">
+                <input type="checkbox" id="cb1" checked /> מוכן לקבל דואר פירסומי
+            </label>
+
+
+            <input type="submit" id="Send" value="שלח">
+
+            <div id="feedback"></div>
+
+        </form>
+    </div>
+    <footer>
+    <a href="http://www.hit.ac.il/" target="_blank"> לאתר הבית של מכון טכנולוגי חולון </div></a>
+    </footer>
+
+
+</body>
+</html>
